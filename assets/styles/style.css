@@ -8,15 +8,17 @@ body {
 }
 
 .page-container {
-  margin: 12px;
-  position: relative;
-  display: flex;
+  margin: 0;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 450px 800px;
   min-height: 900px;
 }
 
 .left {
-  width: 34%;
-  margin: 26px 15px;
+  width: 100%;
+  margin: 26px 45px;
+  max-width: 400px;
   box-shadow: 3px 3px 5px 4px #53505075;
   background-color: #fff;
   max-height: 1100px;
@@ -24,7 +26,7 @@ body {
 
 
 .avatar {
-  width: 34%;
+  width: 100%;
 }
 
 .jane {
@@ -109,7 +111,9 @@ i {
 }
 
 .right {
-  margin: 26px -10px 10px 5px;
+  width: 100%;
+  max-width: 800px;
+  margin: 30px;
 }
 
 .right-top {
@@ -180,24 +184,31 @@ footer {
   text-align: center;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   .page-container {
-    display: block;
+    grid-template-columns: 400px;
+    width: 100vw;
   }
 
   .left {
     width: 100%;
     max-height: 1600px;
+    margin: 0;
   }
 
   .right {
     width: 100%;
+    margin: 10px 0;
   }
 
   .image {
     width: 100%;
   }
-.avatar{
-  width: 100%;
-}
-  } 
+  .avatar{
+    width: 100%;
+  }
+
+  footer {
+    width: 98vw;
+  }
+} 
