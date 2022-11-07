@@ -24,7 +24,6 @@ body {
   max-height: 1100px;
 }
 
-
 .avatar {
   width: 100%;
 }
@@ -204,11 +203,11 @@ footer {
   .image {
     width: 100%;
   }
-  .avatar{
+  .avatar {
     width: 100%;
   }
 
   footer {
     width: 98vw;
   }
-} 
+}
