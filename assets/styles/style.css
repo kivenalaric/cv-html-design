@@ -5,32 +5,40 @@ html {
 body {
   background-color: #d3d3d382;
   min-height: 1000px;
+  font-size: 15px;
+  line-height: 1.5;
 }
 
 .page-container {
-  margin: 0;
+  margin: auto;
   justify-content: center;
   display: grid;
-  grid-template-columns: 450px 800px;
+  grid-template-columns: 34% auto;
   min-height: 900px;
+  background-color: #800000;
+  max-width: 1200px;
+  width: 100vw;
+  gap: 1rem;
 }
 
 .left {
-  width: 100%;
-  margin: 26px 45px;
+
+  margin: 30px 0;
   max-width: 400px;
   box-shadow: 3px 3px 5px 4px #53505075;
   background-color: #fff;
-  max-height: 1100px;
+  max-height: 1200px;
 }
 
 .avatar {
-  width: 100%;
+  background-image: url("../images/avatar_hat.jpg");
+  width: 100px;
+  height: 400px;
+  background-repeat: no-repeat;
 }
 
-.jane {
-  margin: -50px 0 0 25px;
-  font-size: 27px;
+.avatar h2 {
+  font-size: 20px;
 }
 
 .second-left {
@@ -112,7 +120,7 @@ i {
 .right {
   width: 100%;
   max-width: 800px;
-  margin: 30px;
+  margin: 30px 0;
 }
 
 .right-top {
