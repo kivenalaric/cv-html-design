@@ -8,7 +8,7 @@ this project is all about online invitation.
 
 ## ABOUT
 
--This is a cv project amongst 7 projects given to i and my mates as an assignment to test our skills on HTML and CSS. 
+-This is a cv project amongst 7 projects given to i and my mates as an assignment to test our skills on HTML and CSS.
 
 ### Built With
 
