@@ -143,6 +143,7 @@ i {
 }
 
 footer i {
+  margin: 0;
   color: white;
 }
 
@@ -180,18 +181,14 @@ footer {
   width: 100%;
 }
 
-footer i {
-  margin: 0px;
-}
-
 .center {
   text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
   .page-container {
-   display: block;
-   margin: auto;
+    display: block;
+    margin: auto;
   }
 
   .left {
