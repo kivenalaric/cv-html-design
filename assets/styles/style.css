@@ -14,11 +14,12 @@ body {
   grid-template-columns: 400px 900px;
   min-height: 900px;
   max-width: 1200px;
+  gap: 20px;
 }
 
 .left {
   width: 100%;
-  margin: 26px 5px;
+  margin: 18px 0;
   max-width: 400px;
   box-shadow: 3px 3px 5px 4px #53505075;
   background-color: #fff;
@@ -113,8 +114,7 @@ i {
 
 .right {
   width: 100%;
-  max-width: 800px;
-  margin: 30px;
+  max-width: 900px;
 }
 
 .right-top {
@@ -128,19 +128,17 @@ i {
 }
 
 .how {
-  margin: 0 30px;
-  padding: 10px;
+  padding: 0 10px;
   color: #808080;
 }
 
 .how h6 {
   color: #008080;
   font-size: 14px;
-  padding: 5px;
+  margin: 30px;
 }
 
 .exp {
-  margin: 15px 5px;
   padding: 10px;
   color: #808080;
 }
@@ -155,23 +153,25 @@ footer i {
 
 .how p {
   color: #000;
+  margin-left: 10px;
+}
+
+.bn {
+  padding: 0 0 20px;
 }
 
 .how h4 {
+  padding: 0 10px;
   color: #808080;
   font-size: 16px;
 }
 
-/* span {
+span {
   color: #fff;
   background-color: #008080;
   font-size: 15px;
   border-radius: 5px;
   padding: 10px;
-} */
-
-.last {
-  padding-bottom: 10px;
 }
 
 footer {
@@ -181,26 +181,31 @@ footer {
   width: 100%;
 }
 
+footer i {
+  margin: -3px;
+}
+
 .center {
   text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
   .page-container {
-    grid-template-columns: 500px;
-    width: 100%;
+   display: block;
+   margin: auto;
   }
 
   .left {
     width: 100%;
-    max-height: 1600px;
-    max-width: 500px;
+    height: 100%;
+    max-width: 400px;
     margin: 0;
   }
 
   .right {
     width: 100%;
     margin: 10px 0;
+    max-width: 400px;
   }
 
   .image {
