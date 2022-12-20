@@ -1,1 +1,218 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+body {
+  background-color: #d3d3d382;
+  min-height: 1000px;
+}
+
+.page-container {
+  margin: auto;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 400px 900px;
+  min-height: 900px;
+  max-width: 1200px;
+  gap: 20px;
+}
+
+.left {
+  width: 100%;
+  margin: 18px 0;
+  max-width: 400px;
+  box-shadow: 3px 3px 5px 4px #53505075;
+  background-color: #fff;
+  max-height: 1100px;
+}
+
+.avatar {
+  width: 100%;
+}
+
+.jane {
+  margin: -50px 0 0 25px;
+  font-size: 27px;
+}
+
+.second-left {
+  margin: 30px 20px;
+}
+
+.second-left p {
+  color: #a7a2a2;
+  font-size: 14px;
+}
+
+i {
+  color: #008080;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.first hr {
+  color: #808080;
+  margin: 10px 20px;
+  max-width: 500px;
+}
+
+.star {
+  font-size: 20px;
+}
+
+.lang {
+  font-size: 20px;
+}
+
+.bars {
+  background-color: #d3d3d3;
+  border-radius: 15px;
+}
+
+.inner {
+  background-color: #008080;
+  border-radius: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+#ninety {
+  width: 90%;
+}
+
+#eighty {
+  width: 80%;
+}
+
+#seventy-five {
+  width: 75%;
+}
+
+#fifty {
+  width: 50%;
+}
+
+.below {
+  background-color: #008080;
+  border-radius: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+#cent {
+  width: 100%;
+}
+
+#half {
+  width: 50%;
+}
+
+#one-quater {
+  width: 20%;
+}
+
+.right {
+  width: 100%;
+  max-width: 900px;
+}
+
+.right-top {
+  background-color: #fff;
+  box-shadow: 3px 3px 5px 4px #53505075;
+}
+
+.right-bottom {
+  background-color: #fff;
+  box-shadow: 3px 3px 5px 4px #53505075;
+}
+
+.how {
+  padding: 0 10px;
+  color: #808080;
+}
+
+.how h6 {
+  color: #008080;
+  font-size: 14px;
+  margin: 30px;
+}
+
+.exp {
+  padding: 10px;
+  color: #808080;
+}
+
+footer i {
+  margin: 0;
+  color: white;
+}
+
+.exp i {
+  font-size: 35px;
+}
+
+.how p {
+  color: #000;
+  margin-left: 10px;
+}
+
+.bn {
+  padding: 0 0 20px;
+}
+
+.how h4 {
+  padding: 0 10px;
+  color: #808080;
+  font-size: 16px;
+}
+
+span {
+  color: #fff;
+  background-color: #008080;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+footer {
+  color: white;
+  padding: 10px 0;
+  background-color: teal;
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .page-container {
+    display: block;
+    margin: auto;
+  }
+
+  .left {
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    margin: 0;
+  }
+
+  .right {
+    width: 100%;
+    margin: 10px 0;
+    max-width: 400px;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .avatar {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
